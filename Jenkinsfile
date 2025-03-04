@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cnpm install'
+                sh 'npm install'
             }
         }
         stage('Test') {
